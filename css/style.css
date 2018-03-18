@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#main {
+    position:relative;
+    width:1182px;
+    margin:0 auto;
+}
+
+#main:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.box {
+    /* //position:absolute; */
+    float:left;
+    padding:10px 0 0 10px;
+    opacity:0;
+}
+
+.pic {
+    padding:10px;
+    border:1px solid  #ccc;
+    border-radius:5px;
+    box-shadow:0 0 5px #ccc;
+}
+
+.pic img {
+    width:165px;
+}
